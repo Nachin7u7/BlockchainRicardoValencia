@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -71,7 +71,7 @@
 		"compilationTarget": {
 			"imbox.sol": "Inbox"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -84,10 +84,10 @@
 	},
 	"sources": {
 		"imbox.sol": {
-			"keccak256": "0x95908b793874fd0ecb744b9a5d3471e42bc881f6c155adc82c04932d1be9dfe7",
+			"keccak256": "0x5f91e978645b5eb59eb72b143a1c80102e676c5dfe7e414c84607db7d5276940",
 			"urls": [
-				"bzz-raw://9fa9ee42d03f68a6a3194e882a1b7e8380e9e2a668ed90f14c510cd3585bd03d",
-				"dweb:/ipfs/QmXgXzt39x4esuBuk5D8CAyTCnSYt7NkhStvigHNBoeiLU"
+				"bzz-raw://a46a450659e2f1bc04a7a0b5d4516beee75dfaf16a2774c719d651b3e72eebf1",
+				"dweb:/ipfs/QmPuTq71Z2eGFWAammRYVE2RT32fJQr4vSNi7v7hDev2B3"
 			]
 		}
 	},
