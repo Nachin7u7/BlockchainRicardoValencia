@@ -6,6 +6,46 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "title",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "author",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "available",
+								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "quantity",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct StructTest.Book",
+						"name": "newBook",
+						"type": "tuple"
+					}
+				],
+				"name": "addBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "book1",
 				"outputs": [
@@ -28,6 +68,11 @@
 						"internalType": "bool",
 						"name": "available",
 						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -55,6 +100,43 @@
 					{
 						"internalType": "bool",
 						"name": "available",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "idBook",
+						"type": "uint256"
+					}
+				],
+				"name": "borrowBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "idBook",
+						"type": "uint256"
+					}
+				],
+				"name": "getBook",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
 						"type": "bool"
 					}
 				],
@@ -93,6 +175,45 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "libraryBook",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "author",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "available",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "setTitle",
 				"outputs": [],
@@ -113,7 +234,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tarea3.sol": "StructTest"
+			"tarea4.sol": "StructTest"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -127,12 +248,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tarea3.sol": {
-			"keccak256": "0xf1b7741bd50759f148780a51741a246fbb182efa21a86dfdfab360cb8671de52",
+		"tarea4.sol": {
+			"keccak256": "0xb323aceb2ae1b5eb54db746e9a98dd8999c11cc935d592e09fe4a180fb9fb20b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e45dfef10ecab6190037009023f88f4e106612bbc2e61f866ad9ac36d1e7d71c",
-				"dweb:/ipfs/QmZ5gntVE1bWt8guYFuCdbVs3bKaszv8UNDc986exDvnGS"
+				"bzz-raw://d32ee23777fb975f5bc9f5ef430bc834464410c31cbcda656337eea388b0890c",
+				"dweb:/ipfs/QmTwzWCKmL5CKv5s9hKFrxgbv24uTPcnD4mmLqzzqgtdGJ"
 			]
 		}
 	},
