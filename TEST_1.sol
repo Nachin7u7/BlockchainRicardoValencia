@@ -25,7 +25,7 @@ contract TEST_1 {
     {
         require(
             bytes(accountData.name).length > 5,
-            "the name of product should be more than 5."
+            "Nombre muy corto, el nombre debe ser mayor a 5"
         );
         listAccounts[accountData.id] = Account(
             accountData.id,
