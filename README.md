@@ -1,6 +1,6 @@
 # BlockchainRicardoValencia
 
-<h> Primer parcial</h>
+## Primer parcial
 ## Ricardo Ignacio Valencia Sauma
 ## código: 51231
 ## Examen B
