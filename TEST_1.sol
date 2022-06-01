@@ -27,11 +27,15 @@ contract TEST_1 {
             bytes(accountData.name).length > 5,
             "Nombre muy corto, el nombre debe ser mayor a 5"
         );
+        
         listAccounts[accountData.id] = Account(
+            true,
             accountData.id,
-            accountData.name,
             0,
-            true
+            accountData.name
+            
         );
     }
+
+
 }
